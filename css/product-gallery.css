@@ -10,9 +10,9 @@ h2 { display: inline-block; background-color: #000; color: #fff; font-size: 20px
 
 .product { position: relative; }
 
-.pname { color: #000; font-size: 48px; font-family: 'Roboto', 'sans-serif'; margin: 0; white-space: nowrap; text-shadow: 0px -14px 0px rgba(0, 0, 0, 0.3); z-index: 10; position: relative; }
+.pname { color: #000; font-size: 48px; font-family: 'Roboto', 'sans-serif'; margin: 0; white-space: nowrap; text-shadow: 0 -14px 0 rgba(0, 0, 0, 0.3); z-index: 10; position: relative; }
 
-.pname::before { content: attr(data-title); overflow: hidden; position: absolute; top: -25px; opacity: 0.1; }
+.pname::before { content: attr(data-title); overflow: hidden; position: absolute; top: -25px; opacity: 0.1; text-shadow: 0 0 0; }
 
 .psname { color: #000; font-size: 24px; font-style: italic; white-space: nowrap; }
 
